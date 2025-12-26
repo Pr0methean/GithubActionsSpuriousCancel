@@ -28,6 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo '[ERROR] <ScrapeFactordbPrpsRust::graph:956>:Duplicate nodes detected: VertexId(8) and VertexId(20) are both ((((10)^4241)-1)/9)'
+          echo '2025-12-26 15:45:09.481945249 [ERROR] <ScrapeFactordbPrpsRust::graph:956>:Duplicate nodes detected: VertexId(8) and VertexId(20) are both ((((10)^4241)-1)/9)'
+          echo '2025-12-26 15:45:17.196695867 [ERROR] <ScrapeFactordbPrpsRust::net:238>:Error reading https://factordb.com/index.php?id=1100000008545563257&open=prime&basetocheck=199: error sending request'
           sleep 60
           echo 'Still running after logging the error message'
